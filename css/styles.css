@@ -1,0 +1,27 @@
+#header-nav{
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+	position: relative;
+	margin: none;
+}
+#main-bg{
+	border:0;
+}
+.container{
+	width: 100%;
+}
+
+
+body{background-color: red}
+
+
+#logo-img{
+	background: url('../images/jesse-logo_lg.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	position: relative;
+	float: left;
+	margin: 10px, 15px, 10px, 0px;
+	
+}
