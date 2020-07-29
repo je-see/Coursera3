@@ -3,7 +3,7 @@
 	border-radius: 0;
 	border: 0;
 	position: relative;
-	margin: none;
+	height: 160px;
 }
 #main-bg{
 	border:0;
@@ -11,7 +11,21 @@
 .container{
 	width: 100%;
 }
+.navbar-header{
+	
+}
+.navbar-brand h1{
+	position: relative;
+	left: 15px;
+	top: 15px;
+	color: white;
+	font-size: 2.5em;
+	text-shadow: 1px, 1px, #222;
+}
 
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
 
 body{background-color: red}
 
@@ -19,9 +33,10 @@ body{background-color: red}
 #logo-img{
 	background: url('../images/jesse-logo_lg.png') no-repeat;
 	width: 150px;
+	padding-top: 10px;
 	height: 150px;
 	position: relative;
-	float: left;
+	top: 5px;
 	margin: 10px, 15px, 10px, 0px;
 	
 }
